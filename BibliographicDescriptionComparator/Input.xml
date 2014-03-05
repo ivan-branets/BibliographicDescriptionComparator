@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <bibliographicDescription>
+    <title>Scientific Activities in Lviv</title>
+    <autors>Petro Orel, Maksym Tvist</autors>
+    <publisher>International Publisher Group</publisher>
+    <city>Lviv</city>
+    <year>2000</year>
+    <pageCount>1002</pageCount>
+  </bibliographicDescription>
+  
+  <bibliographicDescription>
+    <title>Scientific Activities in Lviv</title>
+    <autors>Petro Orel, Maksym Tvist</autors>
+    <publisher>International Publisher Group</publisher>
+    <city>Lviv</city>
+    <year>2000</year>
+    <pageCount>1002</pageCount>
+  </bibliographicDescription>
+  
+  <bibliographicDescription>
+    <title>Activities in Lviv</title>
+    <autors>Petro Orel, Maksym Tvist, Some Autor</autors>
+    <publisher>International Publisher Group</publisher>
+    <city>Lviv</city>
+    <year>1999</year>
+    <pageCount>1102</pageCount>
+  </bibliographicDescription>
+
+  <bibliographicDescription>
+    <title>Totally wrong title</title>
+    <autors>Petro Orel, Maksym Tvist</autors>
+    <publisher>Some Local Publisher</publisher>
+    <city>Lviv</city>
+    <year>2000</year>
+    <pageCount>1002</pageCount>
+  </bibliographicDescription>
+
+  <bibliographicDescription>
+    <title>Activity</title>
+    <autors>Petro Orel</autors>
+    <publisher>International Publisher Group</publisher>
+    <city>Kyiv</city>
+    <year>2012</year>
+    <pageCount>2002</pageCount>
+  </bibliographicDescription>
+
+</root>

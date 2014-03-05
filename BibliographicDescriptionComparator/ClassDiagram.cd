@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SemanticNetwork.SemanticNodes.Node" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>SemanticNodes\Node.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SemanticNetwork.SemanticNodes.NumericNodes.NumericNode" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAIAAAAAAAAAAAAAAAARgAAAAAAA=</HashCode>
+      <FileName>SemanticNodes\NumericNodes\NumericNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SemanticNetwork.SemanticNodes.NumericNodes.PageCountNode" Collapsed="true">
+    <Position X="8.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SemanticNodes\NumericNodes\PageCountNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SemanticNetwork.SemanticNodes.NumericNodes.PageRangeNode" Collapsed="true">
+    <Position X="19.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAI=</HashCode>
+      <FileName>SemanticNodes\NumericNodes\PageRangeNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SemanticNetwork.SemanticNodes.NumericNodes.YearNode" Collapsed="true">
+    <Position X="6.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SemanticNodes\NumericNodes\YearNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SemanticNetwork.SemanticNodes.StringNodes.AdditionalField" Collapsed="true">
+    <Position X="13" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SemanticNodes\StringNodes\AdditionalFieldNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SemanticNetwork.SemanticNodes.StringNodes.AutorNode" Collapsed="true">
+    <Position X="17.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SemanticNodes\StringNodes\AutorNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SemanticNetwork.SemanticNodes.StringNodes.AutorRangeNode" Collapsed="true">
+    <Position X="22" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>SemanticNodes\StringNodes\AutorRangeNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SemanticNetwork.SemanticNodes.StringNodes.CityNode" Collapsed="true">
+    <Position X="10.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SemanticNodes\StringNodes\CityNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SemanticNetwork.SemanticNodes.StringNodes.PublisherNode" Collapsed="true">
+    <Position X="15.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SemanticNodes\StringNodes\PublisherNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SemanticNetwork.SemanticNodes.StringNodes.StringNode" Collapsed="true">
+    <Position X="14" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>SemanticNodes\StringNodes\StringNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F7BE0C77-57E5-47B3-83B8-53D470F528AD}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BibliographicDescriptionComparator</RootNamespace>
+    <AssemblyName>BibliographicDescriptionComparator</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SemanticNetworkNodes\BibliographicDescriptionNode.cs" />
+    <Compile Include="Comparators\ComplexComparator.cs" />
+    <Compile Include="Comparators\Comparator.cs" />
+    <Compile Include="Comparators\SymbolBySymbolFrequencyComparator.cs" />
+    <Compile Include="Comparators\SymbolFrequencyComparator.cs" />
+    <Compile Include="SemanticNetworkNodes\Node.cs" />
+    <Compile Include="SemanticNetworkNodes\NumericNodes\PageCountNode.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SemanticNetworkNodes\NumericNodes\NumericNode.cs" />
+    <Compile Include="SemanticNetworkNodes\NumericNodes\PageRangeNode.cs" />
+    <Compile Include="SemanticNetworkNodes\NumericNodes\YearNode.cs" />
+    <Compile Include="SemanticNetworkNodes\StringNodes\AdditionalFieldNode.cs" />
+    <Compile Include="SemanticNetworkNodes\StringNodes\AutorNode.cs" />
+    <Compile Include="SemanticNetworkNodes\StringNodes\AutorRangeNode.cs" />
+    <Compile Include="SemanticNetworkNodes\StringNodes\CityNode.cs" />
+    <Compile Include="SemanticNetworkNodes\StringNodes\PublisherNode.cs" />
+    <Compile Include="SemanticNetworkNodes\StringNodes\StringNode.cs" />
+    <Compile Include="SemanticNetworkNodes\StringNodes\TitleNode.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Input.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
